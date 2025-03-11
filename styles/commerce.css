@@ -10,20 +10,21 @@ header {
     text-align: center;
     width: auto;
     padding: 20px 0 0 0;
-    background-color: #eae39a;
+    background-color: #121212;
     margin: 1rem auto;
     text-indent: 1rem;
     border-radius: 5px;
+    color: white;
 }
 
 header h1 {
-    display:inline-flex;
+    display: inline-flex;
     margin-bottom: 10px;
 }
 
 header nav {
 
-    background-color: #303035;
+    background-color: #57052d;
     border-radius: 5px;
     text-align: center;
 }
@@ -88,68 +89,110 @@ header nav {
     height: 100%;
 }
 
-main h1 {
-    position: absolute;
-    top: 350px;
-    padding-left: 500px;
-}
-
 main {
-    display: grid;
-    max-width: 1000px;
-    gap: 0px;
-    padding: 5px;
-    grid-auto-rows:2fr 7fr;
-    grid-auto-columns: 1fr fr;
+    flex: 1 0 auto;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    flex-direction: column;
+    color: black;
 }
 
-section {
-    display:flex;
-    unicode-bidi: isolate;
+main h1 {
+    padding-left: 500px;
+    color: black;
+}
+
+main .top_container {
+    display: flex;
+    flex: 1 0 auto;
+    gap: 30px;
+    height: 30vh;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .card1 {
-    padding: 10px;
-    grid-column: 1/5;
-    grid-row: 4/9;
-    border: solid 2px black;
-    text-align: left;
-    background-color: #eae39a;
-    border-radius: 10px;
-    max-width: 1000px;
-    
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    height: 100%;
+    margin: auto;
 }
 
-.card2 {
+.card1_top {
+    text-align: center;
+    align-content: center;
+    background-color: #57052d;
+    border: 1px solid black;
+    color: white;
+}
+
+.card1_bottom {
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    height: 25vh;
+}
+
+.card2_top {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    align-content: center;
+    background-color: #57052d;
+    flex-direction: column;
+    flex: auto;
+    border: 1px solid black;
+    color: white;
+}
+
+.card2_bottom {
+    display: flex;
+    justify-content: center;
     padding: 10px;
-    grid-column: 5;
-    grid-row: 4/9;
-    border: solid 2px black;
-    text-align: left;
-    background-color: #eae39a;
-    border-radius: 10px;
+    gap: 10px;
+    border: 1px solid black;
+    height: 25vh;
 }
 
 .card3 {
-    padding: 10px;
-    grid-column:2;
-    grid-row: 5/9;
-    border: solid 2px black;
-    text-align: left;
-    background-color: #eae39a;
-    border-radius: 10px;
-}
-
-.card3 nav {
     display: flex;
     flex-direction: column;
+    flex: auto;
+    height: 100%;
+    margin: auto;
+}
+
+.card3_top {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    background-color: #57052d;
+    flex-direction: column;
+    flex: 1 0 auto;
+    width: 1290px;
+    border: 1px solid black;
+    color: white;
+}
+
+.card3_bottom {
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    height: 40vh;
 }
 
 footer {
     text-align: center;
-    margin: 300px;
+    margin: 30px;
     padding: 15px;
     font-weight: bold;
-    background-color: #eae39a;
+    background-color: #121212;
     border-radius: 5px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex: auto;
+    color: white;
 }
