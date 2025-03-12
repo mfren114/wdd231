@@ -98,8 +98,16 @@ main {
     color: black;
 }
 
-main h1 {
-    padding-left: 500px;
+.title {
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 110px;
+    left: 1100px;
+}
+
+.home {
+    padding-left: 300px;
     color: black;
 }
 
