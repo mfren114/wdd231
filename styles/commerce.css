@@ -189,7 +189,7 @@ main .top_container {
     gap: 10px;
     padding: 20px;
     border: 1px solid black;
-    height: 40vh;
+    height: 30vh;
     width: 1290px;    
 }
 
@@ -205,6 +205,38 @@ footer {
     flex-direction: column;
     flex: auto;
     color: white;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    border-bottom: 2px black;
+}
+
+.filter a {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.classbtn {
+    display: flex;
+    align-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+
+.classbtn a {
+    background-color: #57052d;
+    color: white;
+    text-decoration: none;
+    padding: 5px 30px;
+    text-align: center;
 }
 
 @media screen and (max-width: 1200px) {
@@ -233,13 +265,14 @@ footer {
     }
 
     .navbar__menu.active {
-        background-color: black;
+        background-color: #57052d;
         top: 100%;
         opacity: 1;
         transition: all 0.3s ease;
         z-index: 99;
-        height: 50vh;
+        height: 15vh;
         font-size: 1.5rem;
+        width: 1200px;
     }
 
     .navbar__toggle .bar {
@@ -370,6 +403,25 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
+    .navbar__menu.active {
+        background-color: #57052d;
+        top: 100%;
+        opacity: 1;
+        transition: all 0.3s ease;
+        z-index: 99;
+        height: 15vh;
+        font-size: 1.5rem;
+        width: 500px;
+    }
+
+    .navbar__links {
+        text-align: center;
+        padding: 0.5rem;
+        width: 100%;
+        display: table;
+    }
+
+    
     main {
         flex: 1 0 auto;
         display: flex;
@@ -393,5 +445,96 @@ footer {
 
     img {
         padding-right: 250px;
+    }
+
+    main .top_container {
+        display: flex;
+        flex: auto;
+        gap: 30px;
+        height: 30vh;
+        padding-left: 40px;
+        padding-right: 20px;
+    }
+
+    .card1 {
+        display: flex;
+        flex-direction: column;
+        flex: auto;
+        height: 100%;
+        margin: auto;
+        width: 90px;
+    }
+    
+    .card1_top {
+        text-align: center;
+        align-content: center;
+        background-color: #57052d;
+        border: 1px solid black;
+        color: white;
+    }
+    
+    .card1_bottom {
+        gap: 10px;
+        padding: 20px;
+        border: 1px solid black;
+        height: 21.8vh;
+    }
+
+    .card2_top {
+        display: flex;
+        gap: 10px;
+        text-align: center;
+        align-content: center;
+        background-color: #57052d;
+        flex-direction: column;
+        flex: auto;
+        border: 1px solid black;
+        color: white;
+        width: 250px;
+    }
+    
+    .card2_bottom {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        gap: 10px;
+        border: 1px solid black;
+        height: 25vh;
+        width: 250px;
+    }
+
+    .card3 {
+        display: flex;
+        flex-direction: column;
+        flex: auto;
+        height: 100%;
+        margin: auto;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .card3_top {
+        display: flex;
+        text-align: center;
+        align-content: center;
+        background-color: #57052d;
+        flex-direction: column;
+        flex: 1 0 auto;
+        width: 400px;
+        border: 1px solid black;
+        color: white;
+    }
+    
+    .card3_bottom {
+        gap: 10px;
+        padding: 20px;
+        border: 1px solid black;
+        height: 40vh;
+        width: 400px;  
+        text-align: center;  
+    }
+
+    .card2_bottom img {
+        padding-left: 250px;
     }
 }
