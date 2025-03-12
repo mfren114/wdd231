@@ -169,6 +169,8 @@ main .top_container {
     flex: auto;
     height: 100%;
     margin: auto;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .card3_top {
@@ -188,6 +190,7 @@ main .top_container {
     padding: 20px;
     border: 1px solid black;
     height: 40vh;
+    width: 1290px;    
 }
 
 footer {
