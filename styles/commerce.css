@@ -378,6 +378,7 @@ footer {
         margin: auto;
         align-content: center;
         flex-wrap: wrap;
+        padding-left: 50px;
     }
     
     .card3_top {
@@ -387,7 +388,7 @@ footer {
         background-color: #57052d;
         flex-direction: column;
         flex: 1 0 auto;
-        width: 500px;
+        width: 900px;
         border: 1px solid black;
         color: white;
     }
@@ -397,7 +398,7 @@ footer {
         padding: 20px;
         border: 1px solid black;
         height: 40vh;
-        width: 500px;  
+        width: 900px;  
         text-align: center;  
     }
 }
@@ -511,6 +512,7 @@ footer {
         margin: auto;
         align-content: center;
         flex-wrap: wrap;
+        padding-right: 40px;
     }
     
     .card3_top {
@@ -537,4 +539,36 @@ footer {
     .card2_bottom img {
         padding-left: 250px;
     }
+
+    .filter {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        border-bottom: 2px black;
+    }
+    
+    .filter a {
+        background-color: black;
+        color: white;
+        padding: 10px 30px;
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+    
+    .classbtn {
+        display: flex;
+        align-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        padding-left: 10px;
+        padding-top: 30px;
+    }
+    
+    .classbtn a {
+        background-color: #57052d;
+        color: white;
+        text-decoration: none;
+        padding: 5px 30px;
+        text-align: center;
+}
 }
