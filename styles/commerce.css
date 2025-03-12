@@ -30,7 +30,7 @@ header nav {
 }
 
 .navbar ul {
-    color: #ffffff;
+    color: white;
     text-decoration: none;
     padding: .5rem;
     width: auto;
@@ -46,7 +46,7 @@ header nav {
 }
 
 .navbar a {
-    color: #ffffff;
+    color: white;
 }
 
 .navbar {
