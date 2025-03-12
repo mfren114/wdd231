@@ -101,7 +101,6 @@ main {
 .title {
     color: white;
     position: absolute;
-    text-align: center;
     top: 110px;
     left: 1100px;
 }
