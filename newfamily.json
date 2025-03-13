@@ -1,0 +1,13 @@
+{
+    "family_name": "Frenette",
+    "move_in_date": "2025-01-01",
+    "number_of_people": 1,
+    "visited_by_bishopric": true,
+    "family_members": [
+        {
+            "name": "Mathew Frenette",
+            "gender": "Male",
+            "birthday": "1987-12-11"
+        }
+    ]
+}
