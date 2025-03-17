@@ -1,4 +1,4 @@
-const membersArray = "members.json"
+const membersArray = "data/members.json"
 
 const cards = document.querySelector('#cards');
 
@@ -29,11 +29,11 @@ const displayMembers = (members) => {
 
 
         // Build image portrait attributes
-        portrait.setAttribute('src', member.imageIcon);
-        portrait.setAttribute('alt', `Pic of ${member.name}`);
-        portrait.setAttribute('loading', 'lazy');
-        portrait.setAttribute('width', '340');
-        portrait.setAttribute('height', '440');
+        imageIcon.setAttribute('src', member.imageurl);
+        imageIcon.setAttribute('alt', `Pic of ${member.name}`);
+        imageIcon.setAttribute('loading', 'lazy');
+        imageIcon.setAttribute('width', '340');
+        imageIcon.setAttribute('height', '440');
 
         // Append the section(card) with the created elements
         card.appendChild(name);
@@ -45,3 +45,11 @@ const displayMembers = (members) => {
     });
 
 }
+
+const currentYear = new Date().getFullYear();
+
+document.getElementById("currentYear").textContent = currentYear;
+
+alert(document.lastModified);
+const lastModified = document.lastModified;
+document.getElementById("lastModified").textContent = lastModified;
