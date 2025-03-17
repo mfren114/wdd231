@@ -2,7 +2,7 @@ const membersArray = "members.json"
 
 const cards = document.querySelector('#cards');
 
-async function getProphetData() {
+async function getMemberData() {
     const response = await fetch(membersArray);
     const data = await response.json();
     displayMembers(data.members);
