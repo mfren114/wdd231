@@ -26,20 +26,24 @@ const displayMembers = (members) => {
         address.textContent = `Email: ${member.address}`;
         phoneNumber.textContent = `Phone: ${member.phoneNumber}`;
         website.textContent = `URL: ${member.website}`;
+        memberLevel.textContent = `Level: ${member.memberLevel}`;
 
 
         // Build image portrait attributes
-        imageIcon.setAttribute('src', member.imageurl);
+        imageIcon.setAttribute('src', member.imageIcon);
         imageIcon.setAttribute('alt', `Pic of ${member.name}`);
         imageIcon.setAttribute('loading', 'lazy');
-        imageIcon.setAttribute('width', '340');
-        imageIcon.setAttribute('height', '440');
+        imageIcon.setAttribute('width', '100');
+        imageIcon.setAttribute('height', '100');
 
         // Append the section(card) with the created elements
         card.appendChild(name);
         card.appendChild(address);
         card.appendChild(phoneNumber);
         card.appendChild(website);
+        card.appendChild(imageIcon);
+        card.appendChild(memberLevel);
+        
 
         cards.appendChild(card);
     });
