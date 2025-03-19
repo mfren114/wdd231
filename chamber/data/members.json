@@ -2,57 +2,57 @@
     "members": [
         {
             "name": "The Major Company",
-            "address": "1234 Wrigley Way",
+            "address": "majorway@gmail.com",
             "phoneNumber": 4088881234,
             "website": "themajorcompany.com",
             "imageIcon": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default",
             "memberLevel": 1
         },
         {
-            "name": "The Major Company",
-            "address": "1234 Wrigley Way",
-            "phonenumber": 4088881234,
-            "websiteURL": "themajorcompany.com",
+            "name": "Chip Makers",
+            "address": "chippy@yahoo.com",
+            "phonenumber": 4088881254,
+            "website": "chipchip.com",
             "imageIcon": "https://churchofjesuschrist.org/imgs/4382053689af10271a0a874ac3d81532c22aa653/full/1920%2C/0/default",
-            "memberLevel": 1
+            "memberLevel": 5
         },
         {
-            "name": "The Major Company",
-            "address": "1234 Wrigley Way",
+            "name": "Post N Parcel",
+            "address": "postparcel@gmail.com",
             "phonenumber": 4088881234,
-            "websiteURL": "themajorcompany.com",
+            "website": "postup.com",
             "imageIcon": "https://www.churchofjesuschrist.org/imgs/829d8d6fbc780ef7469c8960b1c8c47f524ccacf/full/1280%2C/0/default",
-            "memberLevel": 1
+            "memberLevel": 2
         },
         {
-            "name": "The Major Company",
-            "address": "1234 Wrigley Way",
-            "phonenumber": 4088881234,
-            "websiteURL": "themajorcompany.com",
+            "name": "Neighborhood Market",
+            "address": "themarket@gmail.com",
+            "phonenumber": 4088887878,
+            "website": "dxmarkget.com",
             "imageIcon": "https://churchofjesuschrist.org/imgs/e356f8ed502e8825045edf6fe5b1a23ca3558e1c/full/1280%2C/0/default",
             "memberLevel": 1
         },
         {
-            "name": "The Major Company",
-            "address": "1234 Wrigley Way",
-            "phonenumber": 4088881234,
-            "websiteURL": "themajorcompany.com",
+            "name": "Tailor Smith",
+            "address": "tailorsmith@gmail.com",
+            "phonenumber": 4088884545,
+            "website": "clothesrepair.com",
             "imageIcon": "https://churchofjesuschrist.org/imgs/fbf74eb2b97a2eed54f7f1b22af5f3dc4af11df1/full/1280%2C/0/default",
             "memberLevel": 1
         },
         {
-            "name": "The Major Company",
-            "address": "1234 Wrigley Way",
-            "phonenumber": 4088881234,
-            "websiteURL": "themajorcompany.com",
+            "name": "Books and Phones",
+            "address": "bpbizz@gmail.com",
+            "phonenumber": 4088887943,
+            "website": "booksnphones.com",
             "imageIcon": "https://www.churchofjesuschrist.org/imgs/d239d715885801eab2da82b58ba9e1fdf249b63b/full/1280%2C/0/default",
-            "memberLevel": 1
+            "memberLevel": 5
         },
         {
-            "name": "The Major Company",
-            "address": "1234 Wrigley Way",
-            "phonenumber": 4088881234,
-            "websiteURL": "themajorcompany.com",
+            "name": "The Great Escape",
+            "address": "gescape@gmail.com",
+            "phonenumber": 408888505,
+            "website": "greatescape.com",
             "imageIcon": "https://churchofjesuschrist.org/imgs/77bfb120ada19cc6d0741032dd71b3cda8123d54/full/1280%2C/0/default",
             "memberLevel": 1
         }
