@@ -122,6 +122,11 @@ h2 {
     text-align: center;
 }
 
+.home {
+    text-align: left;
+    padding-left: 400px;
+}
+
 p {
     text-align: center;
 }
@@ -129,7 +134,7 @@ p {
 footer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));  
-    padding: 20px; 
+    padding: auto; 
     margin: auto;
     max-width: 1000px;
 }
@@ -233,4 +238,32 @@ footer h3 {
         display: block;
         cursor: pointer;
     }
+}
+
+@media screen and (max-width: 600px) {
+
+    .home {
+        padding-left: 50px;
+    }
+
+    .navbar__menu.active {
+        background-color: #211166;
+        top: 100%;
+        opacity: 1;
+        transition: all 0.3s ease;
+        z-index: 99;
+        height: 8vh;
+        font-size: .8rem;
+        width: 400px;
+    }
+
+    .navbar__links {
+        text-align: left;
+        padding: 1rem;
+        width: 50%;
+        display: table;
+    }
+
+    
+
 }
