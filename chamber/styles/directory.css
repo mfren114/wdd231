@@ -134,7 +134,7 @@ p {
 footer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));  
-    padding: auto; 
+    padding: 1px; 
     margin: auto;
     max-width: 1000px;
 }
