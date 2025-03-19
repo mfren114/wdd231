@@ -122,16 +122,20 @@ p {
 
 footer {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));   
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));  
+    padding: 20px; 
+    margin: auto;
+    max-width: 1000px;
 }
 
 footer h3 {
-   
+   font-weight: normal;
 }
 
 .sociallinks {
     display: flex;
-    width: 200px;
+    width: 110px;
+    padding: 10px;
 }
 
 .hero img {
