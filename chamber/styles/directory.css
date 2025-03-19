@@ -19,13 +19,13 @@ header p {
 
 header nav {
 
-    background-color: #57052d;
+    background-color: #211166;
     border-radius: 5px;
     text-align: center;
 }
 
 .navbar ul {
-    color: white;
+    color: rgb(17, 2, 53);
     text-decoration: none;
     padding: .5rem;
     width: auto;
@@ -37,11 +37,11 @@ header nav {
 }
 
 .navbar a:hover {
-    background-color: #818177;
+    background-color: #323d49;
 }
 
 .navbar a {
-    color: white;
+    color: rgb(36, 128, 233);
 }
 
 .navbar {
@@ -95,7 +95,6 @@ header nav {
     background-color: white;
     border-radius: 30px;
     padding: 2px;
-    
     
 }
 
@@ -151,3 +150,80 @@ footer h3 {
     padding: 2px;
 }
 
+@media screen and (max-width: 900px) {
+    .navbar__container {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 1;
+        width: 50%;
+        max-width: 900px;
+        padding: 0;
+    }
+
+    .navbar__menu {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0;
+        width: 50%;
+        position: absolute;
+        top: -1000px;
+        opacity: 1;
+        transition: all 0.3s ease;
+        height: 50vh;
+        z-index: -1;
+
+    }
+
+    .navbar__menu.active {
+        background-color: #211166;
+        top: 100%;
+        opacity: 1;
+        transition: all 0.3s ease;
+        z-index: 99;
+        height: 10vh;
+        font-size: 1.5rem;
+        width: 500px;
+    }
+
+    .navbar__toggle .bar {
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        transition: all 0.3s ease-in-out;
+        background-color: white;
+    }
+
+    .navbar__links {
+        text-align: center;
+        padding: 2rem;
+        width: 50%;
+        display: table;
+    }
+
+    #mobile-menu {
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        transform: translate(5%, 20%);
+    }
+
+    .navbar__btn {
+        padding-bottom: 2rem;
+    }
+
+
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 80px;
+        margin: 0;
+    }
+
+    .navbar__toggle .bar {
+        display: block;
+        cursor: pointer;
+    }
+}
