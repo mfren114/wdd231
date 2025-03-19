@@ -9,7 +9,7 @@ body {
 header {
     background-color: rgb(226, 226, 219);
     color: black;
-    padding: 2rem;
+    padding: 1rem;
     text-align: left;
 }
 
@@ -96,6 +96,13 @@ header nav {
     border-radius: 30px;
     padding: 2px;
     
+}
+
+.title {
+    color: white;
+    position: absolute;
+    top: 110px;
+    left: 1100px;
 }
 
 section {
