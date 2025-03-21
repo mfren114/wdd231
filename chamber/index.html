@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231 Chamber Home Page Mathew Frenette</title>
+    <meta name="description" content="WDD231 chamber home page">
+    <meta name="author" content="Mathew Frenette">
+    <meta property="og:title" content="chamber home page" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mfren114.github.io/wdd231/chamber/directory" />
+    <meta property="og:image"
+        content="https://media.gettyimages.com/id/2168981398/vector/milpitas-ca-city-vector-road-map-blue-horizontal.jpg?s=612x612&w=0&k=20&c=v0zGNqUWIk65fC5Ad6cO_GLBmWPxRx9X81ibCTlIrQo=" />
+    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <script src="scripts/directory.js" defer></script>
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+        <h1>Milpitas</h1>
+        <p>Chamber of Commerce</p>
+        <nav class=" navbar">
+            <div class="navbar__container">
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="" class="navbar__links">
+                            Home
+                        </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="" class="navbar__links">
+                            Directory
+                        </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="https://github.com/mfren114/wdd231" class="navbar__links">
+                            Join
+                        </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="https://www.linkedin.com/in/mathew-frenette-1081bb143/" class="navbar__links">
+                            Discover
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <div class="hero">
+            <img src="https://media.gettyimages.com/id/2168981398/vector/milpitas-ca-city-vector-road-map-blue-horizontal.jpg?s=612x612&w=0&k=20&c=v0zGNqUWIk65fC5Ad6cO_GLBmWPxRx9X81ibCTlIrQo="
+                alt="City of Milpitas" loading="lazy" width="200" height="500">
+        </div>
+        <h2 class="home">Home</h2>
+        <div id="cards"></div>
+    </main>
+    <footer>
+        <h3>Milpitas City of Commerce</h3>
+        <h3>1 Calaveras Blvd</h3>
+        <h3>milpitas.ca.gov</h3>
+        <h3>(408)262-7777</h3>
+        <nav class="sociallinks">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.svg" alt="Twitter">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+        </nav>
+        <p>©<span id="currentYear"></span> | Mathew Frenette | California, USA</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

@@ -3,6 +3,8 @@ main {
     background-color: wheat;
     border-radius: 10px;
     text-align: center;
+    max-width: 500px;
+    margin: auto;
 }
 
 #current-temp {

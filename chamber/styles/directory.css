@@ -107,8 +107,7 @@ header nav {
 
 section {
     border: 1px solid black;
-    border-radius: 30px;
-    
+    border-radius: 30px;    
 }
 
 img {
@@ -125,6 +124,7 @@ h2 {
 .home {
     text-align: left;
     padding-left: 400px;
+    margin: auto;
 }
 
 p {
@@ -132,8 +132,6 @@ p {
 }
 
 footer {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));  
     padding: 1px; 
     margin: auto;
     max-width: 1000px;
@@ -141,12 +139,20 @@ footer {
 
 footer h3 {
    font-weight: normal;
+   text-align: left;
 }
 
 .sociallinks {
     display: flex;
     width: 110px;
     padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+footer p {
+    text-align: right;
 }
 
 .hero img {
