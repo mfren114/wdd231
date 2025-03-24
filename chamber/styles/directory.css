@@ -117,6 +117,27 @@ img {
     display: grid; 
 }
 
+.hero button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: white;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 150px;
+    margin: auto;
+}
+
+button:hover {
+    background-color: #323d49;
+}
+
 h2 {
     text-align: center;
 }
@@ -132,27 +153,46 @@ p {
 }
 
 footer {
-    padding: 1px; 
-    margin: auto;
-    max-width: 1000px;
+    height: 5vh;
+    max-width: 900px;
 }
 
-footer h3 {
-   font-weight: normal;
-   text-align: left;
+.section1 {
+    display: flex;
+    border: none;
+    justify-content:start;
+    padding: 10px;
+    position: absolute;
+    left: 17%;
+    margin: auto;
+    
+}
+
+.section2 {
+    display: flex;
+    border: none;
+    justify-content: center;
+    position: absolute;
+    left:43%;   
+    padding: 20px;
+    margin: auto;
+    
+}
+
+.section3 {
+    display: flex;
+    border: none;
+    justify-content:end;
+    padding: 20px;
+    margin: auto;
+    position: absolute;
+    left:55%; 
+    margin: auto;
+
 }
 
 .sociallinks {
-    display: flex;
-    width: 110px;
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-}
-
-footer p {
-    text-align: right;
+    width: 40px;
 }
 
 .hero img {
