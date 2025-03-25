@@ -143,9 +143,10 @@ h2 {
 }
 
 .home {
-    text-align: left;
-    padding-left: 400px;
+    display: flex;
+    padding: 10px;
     margin: auto;
+    max-width: 900px;
 }
 
 p {
