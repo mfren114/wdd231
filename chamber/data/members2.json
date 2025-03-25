@@ -1,0 +1,30 @@
+{
+    "members": [
+        {
+            "name": "The Major Company",
+            "address": "majorway@gmail.com",
+            "phoneNumber": 4088881234,
+            "website": "themajorcompany.com",
+            "imageIcon": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default",
+            "memberLevel": 1
+        },
+        
+        {
+            "name": "Neighborhood Market",
+            "address": "themarket@gmail.com",
+            "phonenumber": 4088887878,
+            "website": "dxmarkget.com",
+            "imageIcon": "https://churchofjesuschrist.org/imgs/e356f8ed502e8825045edf6fe5b1a23ca3558e1c/full/1280%2C/0/default",
+            "memberLevel": 1
+        },
+        {
+            "name": "Tailor Smith",
+            "address": "tailorsmith@gmail.com",
+            "phonenumber": 4088884545,
+            "website": "clothesrepair.com",
+            "imageIcon": "https://churchofjesuschrist.org/imgs/fbf74eb2b97a2eed54f7f1b22af5f3dc4af11df1/full/1280%2C/0/default",
+            "memberLevel": 1
+        }
+       
+    ]
+}
