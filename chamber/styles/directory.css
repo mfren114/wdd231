@@ -95,7 +95,7 @@ header nav {
     background-color: white;
     border-radius: 30px;
     padding: 2px;
-    
+
 }
 
 .title {
@@ -107,14 +107,14 @@ header nav {
 
 section {
     border: 1px solid black;
-    border-radius: 30px;    
+    border-radius: 30px;
 }
 
 img {
     width: 100%;
     max-width: 100px;
     border-radius: 30px;
-    display: grid; 
+    display: grid;
 }
 
 .hero button {
@@ -161,12 +161,12 @@ footer {
 .section1 {
     display: flex;
     border: none;
-    justify-content:start;
+    justify-content: start;
     padding: 10px;
     position: absolute;
     left: 17%;
     margin: auto;
-    
+
 }
 
 .section2 {
@@ -174,20 +174,20 @@ footer {
     border: none;
     justify-content: center;
     position: absolute;
-    left:43%;   
+    left: 43%;
     padding: 20px;
     margin: auto;
-    
+
 }
 
 .section3 {
     display: flex;
     border: none;
-    justify-content:end;
+    justify-content: end;
     padding: 20px;
     margin: auto;
     position: absolute;
-    left:55%; 
+    left: 55%;
     margin: auto;
 
 }
@@ -207,6 +207,48 @@ footer {
     background-color: white;
     border-radius: 30px;
     padding: 2px;
+}
+
+.weather_container {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    background-color: rgb(226, 226, 219);
+}
+
+.weather_section1 {
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    padding-left: 50px;
+    height: 90%;
+    width: 25%;
+    opacity: 0.5;
+}
+
+.ws1_top {
+    padding-right: 50px;
+}
+
+.ws2_top {
+    padding-right: 50px;
+}
+
+.weather_section2 {
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    padding-left: 50px;
+    height: 90%;
+    width: 25%;
+    opacity: 0.5;
+    text-align: left;
+    font-weight: bolder;
+    color: black;
 }
 
 @media screen and (max-width: 900px) {
@@ -311,6 +353,15 @@ footer {
         display: table;
     }
 
+    .section1 {
+        display: flex;
+        border: none;
+        justify-content: start;
+        padding: 10px;
+        position: absolute;
+        left: 5%;
+        margin: auto;
     
+    }
 
 }
