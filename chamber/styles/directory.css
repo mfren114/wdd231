@@ -251,17 +251,34 @@ footer {
     color: black;
 }
 
-.joinform label, input, select {
+.joinform label,
+input,
+select,
+textarea,
+button {
     display: flex;
 }
 
+.joinform button {
+    position: relative;
+    top: 100px;
+    padding: 5px;
+    margin: auto;
+}
+
 .joinform fieldset {
+    position: relative;
+    top: 290px;
+    left: 40%;
+    transform: translate(-50%, -50%);
     margin: 5px;
     border-radius: 10px;
-    border: navy solid 1rem;
+    border: navy solid 2px;
     background-color: rgb(36, 128, 233, 0.7);
-    width: 500px;
+    width: 400px;
     height: 50vh;
+    padding: 30px;
+
 }
 
 .joinform input[type="submit"] {
@@ -270,7 +287,7 @@ footer {
     padding: 10px;
     font-weight: bold;
     width: 100%;
-    max-width: 500px;
+    max-width: auto;
     margin-bottom: 5px;
     background-color: #553816;
     border-color: #764105;
