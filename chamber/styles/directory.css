@@ -276,12 +276,12 @@ button {
     border: navy solid 2px;
     background-color: rgb(36, 128, 233, 0.7);
     width: 400px;
-    height: 50vh;
+    height: 60vh;
     padding: 30px;
 
 }
 
-.joinform input[type="submit"] {
+.joinform input {
     color: #fff0f0;
     border-radius: 10px;
     padding: 10px;
