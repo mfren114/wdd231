@@ -60,11 +60,34 @@
     </header>
     <main>
         <h2 class="home">Join Us</h2>
-        <form method="get" action="thankyou.html" class="joinform" autocomplete="on">
+        <form method="get" action="thankyou.html" class="joinform">
             <fieldset>
-                <label for="name">Full Name</label>
-                <input type="text" id="name" name="name">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname" autocomplete="on" required>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" autocomplete="on" required>
+                <label for="title">Organizational Title</label>
+                <input type="text" id="title" name="title" autocomplete="on" pattern="[A-Z a-z][- ]" minlength="7"
+                    required>
+                <label for="email">Email Address</label>
+                <input type="text" id="email" name="email" autocomplete="on" placeholder="johndoe@gmail.com" required>
+                <label for="number">Phone Number</label>
+                <input type="text" id="number" name="number" autocomplete="on" required>
+                <label for="org">Organization Name</label>
+                <input type="text" id="org" name="org" autocomplete="on" required>
+                <label for="description">Org Description</label>
+                <textarea id="description" name="description"></textarea>
+                <label for="membership">Membership Level</label>
+                <select id="membership" name="membership">
+                    <option id="notavailable" value disabled selected>Choose Product...</option>
+                    <option value="washer">NP Membership</option>
+                    <option value="dryer">Bronze Membership</option>
+                    <option value="waterheater">Silver Membership</option>
+                    <option value="waterheater">Gold Membership</option>
+                </select>
+                <button type="submit">Apply for Membership</button>
             </fieldset>
+            
         </form>
     </main>
     <footer>
