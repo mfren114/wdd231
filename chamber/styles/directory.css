@@ -268,7 +268,7 @@ button {
 
 .joinform fieldset {
     position: relative;
-    top: 290px;
+    top: 350px;
     left: 40%;
     transform: translate(-50%, -50%);
     margin: 5px;
@@ -288,8 +288,8 @@ button {
     font-weight: bold;
     width: 100%;
     margin-bottom: 5px;
-    background-color: #553816;
-    border-color: #764105;
+    background-color: whitesmoke;
+    border-color: black;
 }
 
 @media screen and (max-width: 900px) {
