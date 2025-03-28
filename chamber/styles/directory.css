@@ -295,15 +295,12 @@ button {
 .membership {
     position: relative;
     left: 1000px;
-    bottom: 685px;
+    bottom: 690px;
     max-width: 500px;
     height: 63vh;
     background: rgb(226, 226, 219);
-    border: 1px solid #ddd;
-    border-radius: 8px;
     padding: .6rem;
     text-align: center;
-    
 }
 
 main {
@@ -313,6 +310,7 @@ main {
 #np-card, #bronze-card, #silver-card, #gold-card {
     display: grid;
     border: navy solid 2px;
+    gap: 10px;
     background-color: whitesmoke;
 }
 
