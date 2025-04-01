@@ -317,6 +317,27 @@ main {
     background-color: whitesmoke;
 }
 
+#fname, #lname, #title, #email, #number, #org {
+    color: black;
+}
+
+h1 {
+    animation-duration: 1s;
+    animation-name: slide-in;
+  }
+
+  @keyframes slide-in {
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+
 
 @media screen and (max-width: 900px) {
     
