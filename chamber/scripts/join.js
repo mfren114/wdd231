@@ -56,3 +56,8 @@ goldModal.addEventListener("click", () => {
 goldClose.addEventListener('click', () => {
     goldDialog.close();
 });
+
+//Form info
+
+const getString = window.location.search;
+console.log(getString);
