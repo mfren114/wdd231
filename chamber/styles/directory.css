@@ -307,7 +307,10 @@ main {
     height: 90vh;
 }
 
-#np-card, #bronze-card, #silver-card, #gold-card {
+#np-card,
+#bronze-card,
+#silver-card,
+#gold-card {
     display: grid;
     border: navy solid 2px;
     gap: 10px;
@@ -316,6 +319,12 @@ main {
 
 
 @media screen and (max-width: 900px) {
+    
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
     .navbar__container {
         display: flex;
         justify-content: space-between;
@@ -391,6 +400,25 @@ main {
         display: block;
         cursor: pointer;
     }
+
+    main {
+        height: 150vh;
+        
+    }
+
+    .membership {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+        row-gap: 2px;
+        padding: 20px;
+        width: 10%;
+        max-width: 500px;
+        left: 150px;
+        bottom: -10px;
+        background-color: white;
+        border-radius: 10px;
+        background: rgb(226, 226, 219);
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -428,4 +456,38 @@ main {
 
     }
 
+    .joinform fieldset {
+        position: relative;
+        top: 350px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 5px;
+        border-radius: 10px;
+        border: navy solid 2px;
+        background-color: rgb(36, 128, 233, 0.7);
+        width: 400px;
+        height: 60vh;
+        padding: 30px;
+    }
+
+    .joinform button {
+        position: relative;
+        top: 70px;
+        padding: 5px;
+        margin: auto;
+    }
+
+    .membership {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+        row-gap: 2px;
+        padding: 20px;
+        width: 10%;
+        max-width: 500px;
+        left: 50px;
+        bottom: -10px;
+        background-color: white;
+        border-radius: 10px;
+        background: rgb(226, 226, 219);
+    }
 }
