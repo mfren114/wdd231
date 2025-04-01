@@ -7,9 +7,9 @@
     <title>WDD 231 Chamber Directory Page Mathew Frenette</title>
     <meta name="description" content="WDD231 chamber join page">
     <meta name="author" content="Mathew Frenette">
-    <meta property="og:title" content="chamber join page"/>
+    <meta property="og:title" content="chamber join page" />
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://mfren114.github.io/wdd231/chamber/join"/>
+    <meta property="og:url" content="https://mfren114.github.io/wdd231/chamber/join" />
     <meta property="og:image"
         content="https://media.gettyimages.com/id/2168981398/vector/milpitas-ca-city-vector-road-map-blue-horizontal.jpg?s=612x612&w=0&k=20&c=v0zGNqUWIk65fC5Ad6cO_GLBmWPxRx9X81ibCTlIrQo=" />
     <link rel="stylesheet" href="styles/directory.css">
@@ -94,24 +94,40 @@
             <div class="card" id="np-card">
                 <h3>Np Membership</h3>
                 <p>Non profit organization only (no fee)</p>
-                <a href="#np-modal" class="modal-link">View Information</a>
+                <button id="np-modal"> View Information</button>
+                <dialog id="np-dialog">
+                    <p>As a non profit organization you can join and receive benfits for free</p>
+                    <button id="np-close">Close</button>
+                </dialog>
             </div>
             <div class="card" id="bronze-card">
                 <h3>Bronze Membership</h3>
                 <p>$10/month</p>
-                <a href="#bronze-modal" class="modal-link">View Information</a>
+                <button id="bronze-modal"> View Information</button>
+                <dialog id="bronze-dialog">
+                    <p>For $10 a month you can become a bronze member</p>
+                    <button id="bronze-close">Close</button>
+                </dialog>
             </div>
             <div class="card" id="silver-card">
                 <h3>Silver Membership</h3>
                 <p>$20/month</p>
-                <a href="#silver-modal" class="modal-link">View Information</a>
+                <button id="silver-modal"> View Information</button>
+                <dialog id="silver-dialog">
+                    <p>For $20 a month you can become a silver member</p>
+                    <button id="silver-close">Close</button>
+                </dialog>
             </div>
             <div class="card" id="gold-card">
                 <h3>Gold Membership</h3>
                 <p>$30/month</p>
-                <a href="#gold-modal" class="modal-link">View Information</a>
+                <button id="gold-modal"> View Information</button>
+                <dialog id="gold-dialog">
+                    <p>For $30 a month you can become a gold member</p>
+                    <button id="gold-close">Close</button>
+                </dialog>
             </div>
-        </div >
+        </div>
     </main>
     <footer>
         <section class="section1">
