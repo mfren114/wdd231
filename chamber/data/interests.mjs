@@ -3,7 +3,7 @@ export const interests = [
         "name": "Golfland",
         "address": "1199 Jacklin Rd, Milptas CA",
         "description": "Enjoy 3 fun golf courses and a full arcade",
-        "image": ""
+        "image": "images/golfland.webp"
         
     },
 
