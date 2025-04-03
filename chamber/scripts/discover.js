@@ -4,10 +4,10 @@ console.log(interests)
 const allInterests = document.querySelector('#allinterests');
 
 function displayItems(interests) {
-    interests.foreach(x => {
+    interests.forEach(x => {
         const thecard = document.createElement('div')
         const thephoto = document.createElement('img')
-        thephoto.scr = `image/${x.photo_link}`
+        thephoto.scr = `image/${x.image}`
         thephoto.alt = x.name
         thecard.appendChild(thephoto)
         const thetitle = document.createElement('h2')
