@@ -3,7 +3,7 @@ export const interests = [
         "name": "Golfland",
         "address": "1199 Jacklin Rd, Milptas CA",
         "description": "Enjoy 3 fun golf courses and a full arcade",
-        "image": "images/golfland.webp"
+        "image": "golfland.webp"
         
     },
 
@@ -11,7 +11,7 @@ export const interests = [
         "name": "Dave and Busters",
         "address": "940 Great Mall Drive, Milpitas CA",
         "description": "Games and food for the family",
-        "image": ""
+        "image": "davebusters.webp"
         
     },
 
@@ -19,7 +19,7 @@ export const interests = [
         "name": "Great Mall",
         "address": "447 Great Mall Drive, Milpitas CA",
         "description": "Over a million sqft of shopping space",
-        "image": ""
+        "image": "greatmall.webp"
         
     },
 
@@ -27,7 +27,7 @@ export const interests = [
         "name": "Big Al's",
         "address": "27 Ranch Drive, Milpitas CA",
         "description": "Watch live sports and plaY games",
-        "image": ""
+        "image": "bigals.webp"
         
     },
 
@@ -35,7 +35,7 @@ export const interests = [
         "name": "Bowlero",
         "address": "1287 S Park Victoria Drive, Milpitas CA",
         "description": "20 Lanes of bowling and fun",
-        "image": ""
+        "image": "bowlero.webp"
         
     },
 
@@ -43,7 +43,7 @@ export const interests = [
         "name": "Cardoza Park",
         "address": "Kennedy Drive & N Park Victoria, Milpitas CA",
         "description": "Skate park, baseball fields, jungle gyms, and picnic areas",
-        "image": ""
+        "image": "cardoza.webp"
         
     },
 
@@ -51,7 +51,7 @@ export const interests = [
         "name": "Milpitas Sports Center",
         "address": "1325 E Calaveras Blvd, Milpitas CA",
         "description": "Swimming, gym, and basketball courts",
-        "image": ""
+        "image": "milpiyasrec.webp"
         
     },
 
@@ -59,7 +59,7 @@ export const interests = [
         "name": "Ed Levin Park",
         "address": "3100 Calaveras Rd, Milpitas CA",
         "description": "The largest park in Milpitas",
-        "image": ""
+        "image": "edlevin.webp"
         
     }
 ]
