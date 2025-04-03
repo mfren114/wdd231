@@ -7,8 +7,9 @@ function displayItems(interests) {
     interests.forEach(x => {
         const thecard = document.createElement('div')
         const thephoto = document.createElement('img')
-        thephoto.scr = `image/${x.image}`
+        thephoto.src = `images/${x.image}`
         thephoto.alt = x.name
+        thephoto.loading = "lazy"
         thecard.appendChild(thephoto)
         const thetitle = document.createElement('h2')
         thetitle.innerText = x.name

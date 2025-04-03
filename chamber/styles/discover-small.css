@@ -2,25 +2,46 @@
     box-sizing: border-box;
 }
 
+main {
+    height: 360vh;
+}
+
 #allinterests div {
     margin: 1rem 8px;
     border: 1px solid #999;
     background-color: #eee;
     border-radius: 8px;
+    width: 300px;
+    overflow: hidden;
+
+    display: grid;
+    place-self: center;
+    grid-template-areas: 
+    "name"
+    "image"
+    "address"
+    "description"
 }
 
 #allinterests div h2 {
     margin: 1rem 10px;
+    grid-area: name;
 }
 
 #allinterests div img {
     width: 100%;
+    border-radius: 8px;
+    max-width: max-content;
+    grid-area: image;
 }
 
 #allinterests div p {
     margin: 1rem 10px;
+    grid-area: description;
 }
 
 #allinterests div address {
-    margin: 1rem 10px
+    margin: 1rem 10px;
+    grid-area: address;
 }
+

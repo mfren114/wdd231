@@ -1,0 +1,11 @@
+@media screen and (min-width: 64rem){
+    
+    main {
+        height: 110vh;
+    }
+
+    #allinterests {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
