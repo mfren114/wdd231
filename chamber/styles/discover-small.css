@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+#allinterests div {
+    margin: 1rem 8px;
+    border: 1px solid #999;
+    background-color: #eee;
+    border-radius: 8px;
+}
+
+#allinterests div h2 {
+    margin: 1rem 10px;
+}
+
+#allinterests div img {
+    width: 100%;
+}
+
+#allinterests div p {
+    margin: 1rem 10px;
+}
+
+#allinterests div address {
+    margin: 1rem 10px
+}
