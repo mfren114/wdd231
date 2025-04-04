@@ -25,7 +25,7 @@ export const interests = [
     {
         "name": "Big Al's",
         "address": "27 Ranch Drive, Milpitas CA",
-        "description": "Watch live sports and plaY games",
+        "description": "Watch live sports and play games",
         "image": "bigals.webp"
         
     },

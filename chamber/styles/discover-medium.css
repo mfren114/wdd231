@@ -15,4 +15,9 @@
     #allinterests div img {
         width: 300px;
     }
+
+    #allinterests div img:hover {
+        transform: translate(10px)
+    }
+    
 }
