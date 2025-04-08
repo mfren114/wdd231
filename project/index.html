@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
     <link rel="stylesheet" href="styles/base.css">
-    <script src="scripts/stars.js" defer></script>
+    <script src="scripts/stars.js" type="module"></script>
     <link rel="icon" href="images/nbastars.ico">
 </head>
 <body>
@@ -31,7 +31,12 @@
         </div>
     </div>
 
-    <main>cards</main>
+    <main>
+        <div class="main_container">
+            <h1>Home</h1>
+            <div id="allstars"></div>
+        </div>
+    </main>
 
     <div class="footer">
         <div class="inner_footer">

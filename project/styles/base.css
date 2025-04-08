@@ -6,6 +6,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-color: whitesmoke;
 }
 
 ul {
@@ -70,9 +71,16 @@ ul {
 }
 
 main {
-    height: 85vh;
+    height: 300vh;
     background-color: whitesmoke;
     color: #777;
+}
+
+.main_container {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 .footer {
@@ -111,4 +119,26 @@ main {
     height: 30px;
     background-color: white;
     border-radius: 20px;
+}
+
+#allstars {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#allstars div {
+    margin: 1rem 8px;
+    border: 1px solid #999;
+    background-color: #eee;
+    border-radius: 8px;
+    width: 400px;
+    overflow: hidden;
+    box-shadow: 0px 7px 10px rgb(22, 57, 227);
+    display: grid;
+    place-self: center;
+    grid-template-areas: 
+    "name"
+    "image"
+    "address"
+    "description"
 }

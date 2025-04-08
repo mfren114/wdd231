@@ -13,7 +13,7 @@ export const stars = [
         "jerseyNumber": 23,
         "age": 40,
         "championships": 4,
-        "starImage": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
+        "image": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
     },
     {
         "name": "Luka Doncic",
@@ -21,7 +21,7 @@ export const stars = [
         "jerseyNumber": 77,
         "age": 25,
         "championships": 0,
-        "starImage": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
+        "image": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
     },
     {
         "name": "Jimmy Butler",
@@ -29,7 +29,7 @@ export const stars = [
         "jerseyNumber": 10,
         "age": 37,
         "championships": 0,
-        "starImage": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
+        "image": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
     },
     {
         "name": "Kawhi Leonard",
@@ -37,7 +37,7 @@ export const stars = [
         "jerseyNumber": 2,
         "age": 32,
         "championships": 2,
-        "starImage": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
+        "image": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
     },
     {
         "name": "James Harden",
@@ -45,7 +45,7 @@ export const stars = [
         "jerseyNumber": 1,
         "age": 35,
         "championships": 0,
-        "starImage": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
+        "image": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
     },
     {
         "name": "Ja Morant",
@@ -53,7 +53,7 @@ export const stars = [
         "jerseyNumber": 12,
         "age": 25,
         "championships": 0,
-        "starImage": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
+        "image": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
     },
     {
         "name": "Shai Gilgeous-Alexander",
@@ -61,7 +61,7 @@ export const stars = [
         "jerseyNumber": 2,
         "age": 26,
         "championships": 0,
-        "starImage": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
+        "image": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
     },
     {
         "name": "Kyrie Irving",
@@ -69,7 +69,7 @@ export const stars = [
         "jerseyNumber": 11,
         "age": 33,
         "championships": 1,
-        "starImage": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
+        "image": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
     },
     {
         "name": "Giannis Antetokounmpo",
@@ -77,7 +77,7 @@ export const stars = [
         "jerseyNumber": 34,
         "age": 30,
         "championships": 1,
-        "starImage": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
+        "image": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
     },
     {
         "name": "Jalen Brunson",
@@ -85,7 +85,7 @@ export const stars = [
         "jerseyNumber": 11,
         "age": 28,
         "championships": 0,
-        "starImage": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
+        "image": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
     },
     {
         "name": "Nikola Jokic",
@@ -93,7 +93,7 @@ export const stars = [
         "jerseyNumber": 15,
         "age": 30,
         "championships": 1,
-        "starImage": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
+        "image": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
     },
     {
         "name": "Jayson Tatum",
@@ -101,7 +101,7 @@ export const stars = [
         "jerseyNumber": 0,
         "age": 27,
         "championships": 1,
-        "starImage": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
+        "image": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
     },
     {
         "name": "Lamelo Ball",
@@ -109,7 +109,7 @@ export const stars = [
         "jerseyNumber": 1,
         "age": 23,
         "championships": 0,
-        "starImage": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
+        "image": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
     },
     {
         "name": "Kevin Durant",
@@ -117,7 +117,7 @@ export const stars = [
         "jerseyNumber": 35,
         "age": 36,
         "championships": 2,
-        "starImage": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
+        "image": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
     },
     {
         "name": "Devin Booker",
@@ -125,6 +125,6 @@ export const stars = [
         "jerseyNumber": 1,
         "age": 28,
         "championships": 0,
-        "starImage": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
+        "image": "https://churchofjesuschrist.org/imgs/cc1bb422d3085b88ecff017177d8be41808d229f/full/1920%2C/0/default"
     }
 ]
