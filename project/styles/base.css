@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 20vh
+}
+
+.main_header {
+    display: flex;
+    flex-direction: row;
+}
+
+#logo {
+    padding: 10px;
+}
+
+.title {
+    padding-top: 100px;
+}
+
+.navbar_container {
+    display: flex;
+}
+
+.navbar_links {
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+ li {
+    list-style-type: none;
+ }
+
+ #hero_image {
+    display: flex;
+    justify-content: center;
+ }
