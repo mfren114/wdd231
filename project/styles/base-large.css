@@ -190,3 +190,66 @@ h1, h2 {
 #allstars :hover {
     transform: translate(10px)
 }
+
+.joinform fieldset {
+    position: relative;
+    top: 350px;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    margin: 1rem 8px;
+    border: 1px solid #999;
+    background-color: #eee;
+    box-shadow: 0px 7px 10px rgb(22, 57, 227);
+    border-radius: 8px;
+    width: 400px;
+    height: 60vh;
+    padding: 20px;
+}
+
+.joinform input {
+    color: #777;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 5px;
+    background-color: whitesmoke;
+    border-color: #999;
+}
+
+.joinform label {
+    color: #777;
+}
+
+.membership {
+    position: relative;
+    left: 1000px;
+    bottom: 690px;
+    max-width: 500px;
+    height: 63vh;
+    background: rgb(226, 226, 219);
+    padding: .6rem;
+    text-align: center;
+}
+
+.joinform label,
+input,
+select,
+textarea,
+button {
+    display: flex;
+}
+
+.joinform button {
+    position: relative;
+    top: 100px;
+    padding: auto;
+    margin: auto;
+    font-weight: bolder;
+    border-radius: 50px;
+}
+
+.joinform button:hover {
+    background-color: rgb(22, 57, 227);
+    color: #eee;
+}

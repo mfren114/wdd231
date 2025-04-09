@@ -89,3 +89,4 @@ function displayResults(data) {
 }
 
 apifetch();
+

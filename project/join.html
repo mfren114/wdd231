@@ -13,11 +13,78 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
-    <link rel="stylesheet" href="styles/base.css">
-    <script src="scripts/stars.js" defer></script>
+    <link rel="stylesheet" href="styles/base-large.css">
+    <link rel="stylesheet" href="styles/base-medium.css">
+    <link rel="stylesheet" href="styles/base-small.css">
+    <link rel="stylesheet" href="styles/join.css">
+    <script src="scripts/stars-join.js" defer></script>
     <link rel="icon" href="images/nbastars.ico">
 </head>
 <body>
-    
+    <div class="header">
+        <div class="inner_header">
+            <div class="logo">
+                <h1>NBA <span>Stars</span></h1>
+            </div>
+            <div class="nav_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav">
+                <a href="https://mfren114.github.io/wdd231/project/index.html" class="nav_links"><li>Home</li></a>
+                <a href="https://mfren114.github.io/wdd231/project/join.html" class="nav_links"><li>Join</li></a>
+                <a href="https://mfren114.github.io/wdd231/project/discover.html" class="nav_links"><li>Discover</li></a>
+            </ul>
+        </div>
+    </div>
+
+    <main>
+        <div class="main_container">
+            <h1>Join</h1>
+            <h2>Become a member of NBA Stars and enjoy <br> content on our featured NBA talent</h2>
+            <form method="get" action="thankyou.html" class="joinform">
+                <fieldset>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="fname" required autocomplete="given-name" >
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lname" required autocomplete="family-name">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" name="address" required autocomplete="street-address">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" autocomplete="on" placeholder="johndoe@gmail.com" required>
+                    <label for="number">Phone Number</label>
+                    <input type="tel" id="number" name="number" required autocomplete="tel" placeholder="408-123-4567">
+                    <label for="membership">Membership Level</label>
+                    <select id="membership" name="membership">
+                        <option id="notavailable" value disabled selected>Choose Membership...</option>
+                        <option value="free">Free Membership</option>
+                        <option value="paid">Paid Membership</option>
+                    </select>
+                    <input type="hidden" id="date" name="date" value="CurrentTime">
+                    <button type="submit">Apply for Membership</button>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+
+    <div class="footer">
+        <div class="inner_footer">
+            <div class="copyright">
+                <p>©<span id="currentYear"></span> | Mathew Frenette | California, USA </p>
+            </div>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.svg" alt="Facebook">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.svg" alt="Twitter">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.svg" alt="Instagram">
+                </a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
