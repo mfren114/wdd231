@@ -1,6 +1,26 @@
-@media screen and (min-width: 38rem) {
-    #allinterests {
+@media screen and (max-width: 65rem) {
+    #allstars {
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+    main {
+        height: 590vh;
+    }
+
+    .copyright p {
+        font-size: 12px;
+    }
+
+    .inner_header {
+        width: 600px;
+    }
+
+    .main_container {
+        width: 500px;
+    }
+
+    .inner_footer {
+        width: 450px;
     }
 }
