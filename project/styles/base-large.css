@@ -77,7 +77,7 @@ ul {
 }
 
 main {
-    height: 400vh;
+    height: 440vh;
     background-color: whitesmoke;
     color: #777;
 }
@@ -87,6 +87,10 @@ main {
     height: 100%;
     display: block;
     margin: 0 auto;
+}
+
+h1, h2 {
+    padding: 5px;
 }
 
 .footer {
@@ -164,4 +168,25 @@ main {
     margin: 1rem 10px;
     font-size: 15px;
     font-weight: bold
+}
+
+.weather {
+    
+    margin: 1rem 8px;
+    border: 1px solid #999;
+    background-color: #eee;
+    border-radius: 8px;
+    width: 400px;
+    overflow: hidden;
+    box-shadow: 0px 7px 10px red;
+    padding: 10px;
+    place-self: center;
+}
+
+.weather p, figure {
+    text-align: center;
+}
+
+#allstars :hover {
+    transform: translate(10px)
 }
