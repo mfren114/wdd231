@@ -72,7 +72,7 @@ ul {
 }
 
 main {
-    height: 300vh;
+    height: 400vh;
     background-color: whitesmoke;
     color: #777;
 }
@@ -140,6 +140,23 @@ main {
     grid-template-areas:
         "name"
         "image"
-        "address"
-        "description"
+}
+
+#allstars div h2 {
+    margin: 1rem 10px;
+    grid-area: name;
+}
+
+#allstars div img {
+    width: 100%;
+    border-radius: 50px;
+    max-width: max-content;
+    place-self: center;
+    grid-area: image;
+}
+
+#allstars div h3 {
+    margin: 1rem 10px;
+    font-size: 15px;
+    font-weight: bold
 }

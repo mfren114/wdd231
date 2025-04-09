@@ -5,7 +5,7 @@
     }
 
     main {
-        height: 590vh;
+        height: 800vh;
     }
 
     .copyright p {
@@ -23,4 +23,5 @@
     .inner_footer {
         width: 450px;
     }
+
 }
