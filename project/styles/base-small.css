@@ -5,6 +5,10 @@
     }
 
     .inner_header {
-        width: 517px;
+        width: 490px;
+    }
+
+    .nav a {
+        padding: 0 15px;
     }
 }
