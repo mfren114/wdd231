@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="styles/base-large.css">
     <link rel="stylesheet" href="styles/base-medium.css">
     <link rel="stylesheet" href="styles/base-small.css">
-    <script src="scripts/stars.js" defer></script>
+    <script src="scripts/stars.js" ></script>
+    <script src="scripts/discover.js"></script>
     <link rel="icon" href="images/nbastars.ico">
 </head>
 <body>
@@ -41,6 +42,19 @@
     <main>
         <div class="main_container">
             <h1>Discover</h1>
+            <p>Disciver upcoming events regarding your favorite star</p>
+            <div class="modals">
+                <div class="card" id="curry-card">
+                    <h3>Stephan Curry</h3>
+                    <img src="images/curry.webp" alt="" loading="lazy">
+                    <button id="curry-modal"> View Events</button>
+                    <dialog id="curry-dialog">
+                        <p>May 10, 2025- Chase Center gift shop signing</p>
+                        <p>May 25, 2025- Sweet July meet and greet</p>
+                        <button id="curry-close">Close</button>
+                    </dialog>
+                </div>
+            </div>
         </div>
     </main>
 
