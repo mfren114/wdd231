@@ -24,4 +24,10 @@
         width: 450px;
     }
 
+    .modals {
+        display: grid;
+        grid-template-columns: 1fr;
+        place-self: center;
+    }
+
 }
