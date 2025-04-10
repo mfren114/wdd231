@@ -282,3 +282,9 @@ dialog button {
     border: 1px solid #999;
     color: white;
 }
+
+.card button {
+    background-color: rgb(238, 32, 32);
+    border: 1px solid #999;
+    color: white;
+}
