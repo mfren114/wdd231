@@ -1,3 +1,9 @@
+//Date
+const currentYear = new Date().getFullYear();
+
+document.getElementById("currentYear").textContent = currentYear;
+
+
 //modals
 
 const curryModal = document.querySelector('#curry-modal')
