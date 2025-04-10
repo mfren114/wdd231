@@ -245,13 +245,19 @@ button {
     top: 100px;
     padding: auto;
     margin: auto;
-    font-weight: bolder;
-    border-radius: 50px;
+    background-color: rgb(238, 32, 32);
+    border: 1px solid #999;
+    color: white;
 }
 
 .joinform button:hover {
     background-color: rgb(22, 57, 227);
     color: #eee;
+}
+
+.modals {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
 }
 
 #curry-card {
@@ -288,3 +294,4 @@ dialog button {
     border: 1px solid #999;
     color: white;
 }
+
