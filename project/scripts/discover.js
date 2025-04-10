@@ -110,8 +110,8 @@ irvingModal.addEventListener("click", () => {
     irvingDialog.showModal();
 });
 
-curryClose.addEventListener('click', () => {
-    curryDialog.close();
+irvingClose.addEventListener('click', () => {
+    irvingDialog.close();
 });
 
 const giannisModal = document.querySelector('#giannis-modal')
