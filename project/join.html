@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,7 @@
     <meta property="og:title" content="nba stars project" />
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://mfren114.github.io/wdd231/project/join" />
-    <meta property="og:image">
+    <meta property="og:content">
     <title>NBA Stars</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,6 +21,7 @@
     <script src="scripts/stars-join.js" defer></script>
     <link rel="icon" href="images/nbastars.ico">
 </head>
+
 <body>
     <div class="header">
         <div class="inner_header">
@@ -32,9 +34,15 @@
                 <span class="bar"></span>
             </div>
             <ul class="nav">
-                <a href="https://mfren114.github.io/wdd231/project/index.html" class="nav_links"><li>Home</li></a>
-                <a href="https://mfren114.github.io/wdd231/project/join.html" class="nav_links"><li>Join</li></a>
-                <a href="https://mfren114.github.io/wdd231/project/discover.html" class="nav_links"><li>Discover</li></a>
+                <a href="https://mfren114.github.io/wdd231/project/index.html" class="nav_links">
+                    <li>Home</li>
+                </a>
+                <a href="https://mfren114.github.io/wdd231/project/join.html" class="nav_links">
+                    <li>Join</li>
+                </a>
+                <a href="https://mfren114.github.io/wdd231/project/discover.html" class="nav_links">
+                    <li>Discover</li>
+                </a>
             </ul>
         </div>
     </div>
@@ -44,17 +52,19 @@
             <h1>Join</h1>
             <h2>Become a member of NBA Stars and enjoy <br> content on our featured NBA talent</h2>
             <p>Free Membership: With our free membership you get access to exclusive newsletters and email content</p>
-            <p>Paid Membership $4.99/month: With our paid membership, you get daily texts and emails regarding the whereabouts of your favorite NBA Stars</p>
+            <p>Paid Membership $4.99/month: With our paid membership, you get daily texts and emails regarding the
+                whereabouts of your favorite NBA Stars</p>
             <form method="get" action="thankyou.html" class="joinform">
                 <fieldset>
                     <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="fname" required autocomplete="given-name" >
+                    <input type="text" id="fname" name="fname" required autocomplete="given-name">
                     <label for="lname">Last Name</label>
                     <input type="text" id="lname" name="lname" required autocomplete="family-name">
                     <label for="address">Address</label>
-                    <input type="text" id="address" name="address" required autocomplete="street-address">
+                    <input type="text" id="address" name="address" required autocomplete="address-line1">
                     <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email" autocomplete="on" placeholder="johndoe@gmail.com" required>
+                    <input type="email" id="email" name="email" autocomplete="on" placeholder="johndoe@gmail.com"
+                        required>
                     <label for="number">Phone Number</label>
                     <input type="tel" id="number" name="number" required autocomplete="tel" placeholder="408-123-4567">
                     <label for="membership">Membership Level</label>
@@ -89,4 +99,5 @@
         </div>
     </div>
 </body>
+
 </html>
