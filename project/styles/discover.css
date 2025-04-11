@@ -1,0 +1,9 @@
+main {
+    height: 240vh;
+}
+
+@media screen and (max-width: 65rem) {
+    main {
+        height: 540vh;
+    }
+}
