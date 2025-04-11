@@ -4,6 +4,6 @@ main {
 
 @media screen and (max-width: 65rem) {
     main {
-        height: 540vh;
+        height: 600vh;
     }
 }
