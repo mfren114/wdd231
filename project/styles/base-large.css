@@ -260,7 +260,7 @@ button {
     grid-template-columns: 1fr 2fr 3fr;
 }
 
-#curry-card {
+.card {
     margin: 1rem 8px;
     border: 1px solid #999;
     background-color: #eee;
